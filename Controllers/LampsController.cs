@@ -20,7 +20,6 @@ namespace Illumination.Controllers
         }
 
         // GET: Lamps
-        // GET: Movies
         public async Task<IActionResult> Index(string lampSize, string searchString)
         {
             if (_context.Lamp == null)
