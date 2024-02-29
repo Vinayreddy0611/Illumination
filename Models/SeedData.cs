@@ -41,7 +41,7 @@ public static class SeedData
                 {
                     LampType = "Fluorescent",
                     Size = "Candelebra",
-                    Design = "Round shaped",
+                    Design = "Circle shaped",
                     Price = 22,
                     Powersource = "Battery"
                    
@@ -50,10 +50,42 @@ public static class SeedData
                 {
                     LampType = "TableLamp",
                     Size = "Intermediate",
-                    Design = "Round shaped",
-                    Price = 8,
-                    Powersource = "Electric current"
+                    Design = "Oval shaped",
+                    Price = 6,
+                    Powersource = "Filament based"
                     
+                },
+                new Lamp
+                {
+                    LampType = "LED",
+                    Size = "Intermediate",
+                    Design = "Bell shaped",
+                    Price = 22,
+                    Powersource = "Electric current"
+                },
+                new Lamp
+                {
+                    LampType = "Desk Lamp",
+                    Size = "Intermediate",
+                    Design = "Drum shaped",
+                    Price = 18,
+                    Powersource = "Battery"
+                },
+                new Lamp
+                {
+                    LampType = "CFL Lamp",
+                    Size = "Intermediate",
+                    Design = "Horn shaped",
+                    Price = 25,
+                    Powersource = "Electric current"
+                },
+                new Lamp
+                {
+                    LampType = "Neon Lamp",
+                    Size = "Intermediate",
+                    Design = "Sharpcorner shaped",
+                    Price = 12,
+                    Powersource = "Electric current"
                 }
             );
             context.SaveChanges();
