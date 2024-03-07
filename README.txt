@@ -40,4 +40,3 @@ Added search by Size to the index view.
 
 2024-02-22
 
-Done by Vinay.
