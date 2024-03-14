@@ -23,6 +23,7 @@ Solution:Used migration to create and updated the database
 Examined the generated database context class and the initial create class to make sure it was all good.
 
 Done by Vinay, Siraj and Jenish
+
 22:00
 After migrating and updating the databse to match the model.
 Populated the database with new Lamps.
@@ -39,4 +40,3 @@ Added search by Size to the index view.
 
 2024-02-22
 
-Done by Vinay.
